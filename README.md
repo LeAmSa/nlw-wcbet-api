@@ -3,6 +3,7 @@
     <h3>Status: Building... 👷🚧</h3>
  </div>
 
-## Obs
+## Todo
 
-- [ ] Put ERD.svg file here in README
+- [x] Add JWT_SECRET in .env file
+- [ ] After finished, put ERD.svg file here in README
