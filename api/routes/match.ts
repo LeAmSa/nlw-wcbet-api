@@ -19,7 +19,7 @@ export async function matchRoutes(fastify: FastifyInstance) {
 
       const matches = await prisma.match.findMany({
         orderBy: {
-          date: "desc",
+          date: "asc",
         },
         include: {
           bets: {
